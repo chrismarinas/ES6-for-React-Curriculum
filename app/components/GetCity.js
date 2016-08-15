@@ -29,8 +29,7 @@ function getStyles (props) {
     flexDirection: props.direction || 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    maxWidth: 300,
-    alignSelf: 'right'
+    maxWidth: 300
   }
 }
 
@@ -53,6 +52,6 @@ GetCity.propTypes = {
   onSubmitCity: PropTypes.func.isRequired,
   onUpdateCity: PropTypes.func.isRequired,
   city: PropTypes.string.isRequired
-}
+};
 
 module.exports = GetCity;
